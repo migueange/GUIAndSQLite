@@ -1,0 +1,108 @@
+/**
+ *	Document   : style.css
+ *	Created on : September 2014
+ *	Author     : Miguel Mendoza.
+ *	Description: css styles for JavaFx.
+ */
+@CHARSET "UTF-8";
+
+.root {
+	-fx-background-image: url(../img/bluebg.jpg);	
+}
+
+#titulo {
+	-fx-font-size: 45pt;
+	-fx-font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	-fx-font-variant: small-caps;
+    -fx-fill: linear-gradient(from 0% 0% to 0% 100%, repeat, white 20%, black 100%);
+}
+
+#titulo_mundial {
+	-fx-margin-top:10pt;
+	-fx-font-size: 25pt;
+	-fx-font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	-fx-font-variant: small-caps;
+    -fx-fill: linear-gradient(from 0% 0% to 0% 100%, repeat, white 20%, black 100%);
+}
+
+#instrucciones{
+	-fx-font-size:15pt;
+	-fx-font-family: "sans-serif",Helvetica, sans-serif;
+	-fx-font-variant: small-caps;
+	-fx-fill: gray;
+}
+
+#resultados{
+	-fx-font-size:10pt;
+	-fx-font-family: "sans-serif",Helvetica, sans-serif;
+	-fx-font-variant: small-caps;
+	-fx-fill: gray;
+}
+
+#presentacion{
+	-fx-font-size:12pt;
+	-fx-font-family: "sans-serif",Helvetica, sans-serif;
+	-fx-font-variant: small-caps;
+	-fx-fill: #E0E0E0;
+}
+
+#presentacion_mundial{
+	-fx-font-size:10pt;
+	-fx-font-family: "sans-serif",Helvetica, sans-serif;
+	-fx-font-variant: small-caps;
+	-fx-fill: #E0E0E0;
+}
+
+#presentacion_pais{
+	-fx-font-size:13pt;
+	-fx-font-family: "sans-serif",Helvetica, sans-serif;
+	-fx-font-variant: small-caps;
+	-fx-fill: #E0E0E0;
+}
+
+#presentacion_part{
+	-fx-font-size:8pt;
+	-fx-font-family: "sans-serif",Helvetica, sans-serif;
+	-fx-font-variant: small-caps;
+	-fx-fill: #E0E0E0;
+}
+
+#presentacion_busquedas{
+	-fx-font-size:11px;
+	-fx-font-family: "sans-serif",Helvetica, sans-serif;
+	-fx-font-variant: small-caps;
+	-fx-fill: #E0E0E0;
+}
+
+#error{
+	-fx-font-size:13pt;
+	-fx-font-family: "sans-serif",Helvetica, sans-serif;
+	-fx-font-variant: small-caps;
+	-fx-fill: red;
+}
+
+.button {
+	-fx-font-family: "sans-serif",Helvetica, sans-serif;
+	-fx-font-size:13px;
+	-fx-background-color:linear-gradient(from 0% 0% to 0% 100%, repeat, gray 20%, #202020 90%);
+	-fx-text-fill:#E0E0E0;
+}
+
+.button:hover{
+	-fx-font-family: "sans-serif",Helvetica, sans-serif;
+	-fx-font-size:13px;
+	-fx-background-color:linear-gradient(from 0% 100% to 0% 0%, repeat, gray 20%, #202020 90%);
+	-fx-text-fill:#E0E0E0;
+}
+ 
+.pagination .pagination-control .bullet-button {
+    -fx-background-color:transparent, #DDF1F8, #0E5D79, white, white;
+}
+ 
+.pagination .pagination-control .bullet-button:selected {   
+    -fx-background-color: transparent, #DDF1F8, #0E5D79, white, #0E5D79;
+}
+ 
+.pagination .pagination-control .left-arrow, .right-arrow{
+    -fx-background-color:#DDF1F8, #0E5D79;
+}
