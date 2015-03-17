@@ -29,6 +29,8 @@ alojan en la carpeta img.
 
 La base de datos está en la carpeta SQLite.
 
+Utiliza estructuras de datos(De mi curso de Estructuras de datos) en la Facultad de Ciencias de la UNAM.
+
 Al abrir el programa se conecta a la base de datos, al cerrar el programa se desconecta.
 
 El programa permite al usuario visualizar los datos de todos los mundiales,paises y jugadores,
