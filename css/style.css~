@@ -4,7 +4,7 @@
  *	Author     : Miguel Mendoza.
  *	Description: css styles for JavaFx.
  */
-
+/*@CHARSET "UTF-8";*/
 
 .root {
 	-fx-background-image: url(../img/bluebg.jpg);	
